@@ -26,10 +26,23 @@ Human-VICs-and-osteoblasts-osteogenic-differentiation-main/
 │   ├── dia_ost_contVSvic_cont.csv
 │   ├── dia_ost_diffVSvic_diff.csv
 │   └── dia_vic_contVSvic_diff.csv
-├── data_prep_to_github/
-│   ├── README.md
-│   ├── data_prep_to_github.z01
-│   └── data_prep_to_github.zip
+├── data_prep/
+│   ├── combined_peptide_DDA.tsv
+│   ├── diaml_imp.csv
+│   ├── report..gg_matrix_diaml.tsv
+│   ├── data_preparation.r
+│   ├── diaml_toNA.csv
+│   ├── report..pr_matrix_DiA_ph.tsv
+│   ├── dda_imp.csv
+│   ├── fact_NA.xlsx
+│   ├── report..pr_matrix_diaml.tsv
+│   ├── dda_toNA.csv
+│   ├── prot_dda.xlsx
+│   ├── transcriptomics_data.csv
+│   ├── dia_imp.csv
+│   ├── rename.xlsx
+│   ├── dia_toNA.csv
+│   └── report..gg_matrix_DiA_ph.tsv
 ├── omics_comb/
 │   ├── Enrichment_contr.R
 │   ├── Enrichment_dif.R
@@ -73,10 +86,9 @@ Human-VICs-and-osteoblasts-osteogenic-differentiation-main/
     <li><strong>dia_ost_contVSvic_cont.csv</strong>, <strong>dia_ost_diffVSvic_diff.csv</strong>, <strong>dia_vic_contVSvic_diff.csv</strong> — Analysis results for various DIA data conditions.</li>
 </ul>
 
-<h3>Folder <code>data_prep_to_github</code></h3>
+<h3>Folder <code>data_prep</code></h3>
 <ul>
-    <li><strong>README.md</strong> — Description of data preparation process.</li>
-    <li><strong>data_prep_to_github.z01</strong>, <strong>data_prep_to_github.zip</strong> — Archived files of raw proteome data.</li>
+    <li>Raw proteome data.</li>
 </ul>
 
 <h3>Folder <code>omics_comb</code></h3>
